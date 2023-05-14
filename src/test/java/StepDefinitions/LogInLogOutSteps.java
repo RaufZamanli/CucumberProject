@@ -8,7 +8,7 @@ public class LogInLogOutSteps {
 
     LogIn tr = new LogIn();
 
-    @When("entering username and password value to login")
+    @When("enter username and password value to login")
     public void enteringUsernameAndPasswordValueToLogin() {
         tr.sendKeysFunction(tr.username,"rafan444");
         tr.sendKeysFunction(tr.password,"rauf123456");
@@ -22,7 +22,7 @@ public class LogInLogOutSteps {
     }
 
 
-    @When("entering username and invalid password value to login")
+    @When("enter username and invalid password value to login")
     public void enteringUsernameAndInvalidPasswordValueToLogin() {
         tr.sendKeysFunction(tr.username,"rafan444");
         tr.sendKeysFunction(tr.password,"asdasd561");
@@ -36,7 +36,7 @@ public class LogInLogOutSteps {
         tr.verifiedContainsTextFunction(tr.errorMessage,"Error!");
     }
 
-    @When("entering invalid username and password value to login")
+    @When("enter invalid username and password value to login")
     public void enteringInvalidUsernameAndPasswordValueToLogin() {
 
         tr.sendKeysFunction(tr.username,"rauf6587");

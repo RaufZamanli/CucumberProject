@@ -3,7 +3,7 @@ Feature: Bill Pay Functionality
   Background: Before Scenario
 
     Given navigate to para Bank website
-    When entering username and password value to login
+    When enter username and password value to login
     Then user should login successfully
 
 

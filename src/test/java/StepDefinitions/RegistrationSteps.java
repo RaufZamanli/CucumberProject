@@ -18,7 +18,7 @@ public class RegistrationSteps {
 
     }
 
-    @When("clicking register button and providing all information")
+    @When("click on register button and provide all information")
     public void clickingRegisterButtonAndProvidingAllInformation() {
 
         rg.clickFunction(rg.registerBtn);
@@ -38,7 +38,7 @@ public class RegistrationSteps {
 
     }
 
-    @Then("user should register successfully")
+    @Then("user should be register successfully")
     public void userShouldRegisterSuccessfully() {
 
         rg.verifiedContainsTextFunction(rg.successRgstr,

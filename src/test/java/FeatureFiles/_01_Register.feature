@@ -8,5 +8,5 @@ Feature:  Register Functionality
   Scenario: Registration
 
     Given navigate to para Bank website
-    When clicking register button and providing all information
-    Then user should register successfully
+    When click on register button and provide all information
+    Then user should be register successfully
